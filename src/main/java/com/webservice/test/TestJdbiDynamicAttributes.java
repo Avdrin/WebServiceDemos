@@ -1,4 +1,4 @@
-//package com.howtodoinjava.jersey;
+//package com.webservice.test;
 //
 ///**
 // * Created by Katz on 13.12.2016.

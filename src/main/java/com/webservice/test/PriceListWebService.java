@@ -1,4 +1,4 @@
-package com.howtodoinjava.jersey;
+package com.webservice.test;
 
 import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.NotNull;
@@ -17,7 +17,7 @@ import java.util.List;
 @Produces(MediaType.APPLICATION_JSON)
 @Consumes(MediaType.APPLICATION_JSON)
 
-public class PriceListWebServiceIm implements PriceListWebService {
+public class PriceListWebService implements PriceListWebServices {
     @GET
     public BigDecimal getPrice(@NotNull @QueryParam("productName") String productName, @NotNull @QueryParam("date") LocalDate date){
 

@@ -1,4 +1,4 @@
-package com.howtodoinjava.jersey;
+package com.webservice.test;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;

@@ -1,4 +1,4 @@
-package com.howtodoinjava.jersey;
+package com.webservice.test;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
@@ -6,7 +6,7 @@ import java.time.LocalDate;
 /**
  * Created by Katz on 13.12.2016.
  */
-public class ProductPrice {
+public class ProductPrice implements ProductPrices {
     private final String productName;
     private final BigDecimal productPrice;
     private final LocalDate validFrom;
@@ -28,4 +28,12 @@ public class ProductPrice {
     public LocalDate getValidFrom() { return validFrom; }
     public LocalDate getValidTo() { return validTo; }
 
+//    @Override
+//    public LocalDate setValidFrom(LocalDate validFrom) {
+//        return null;
+//    }
+//    @Override
+//    public LocalDate setValidTo(LocalDate validTo) {
+//        return null;
+//    }
 }

@@ -1,5 +1,4 @@
 Manifest-Version: 1.0
-Class-Path: C:\JerseyDemos\JerseyDemos\src\main\java\com\howtodoinjava
- \jersey\
-Main-Class: com.howtodoinjava.jersey.PriceListWebServiceIm
+Class-Path: C:\WebServiceDemos\WebServiceDemos\src\main\java\com\webservice\test\
+Main-Class: com.webservice.test.PriceListWebService
 

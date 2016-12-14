@@ -1,5 +1,5 @@
 /*
-package com.howtodoinjava.jersey;
+package com.webservice.test;
 
 import javax.ws.rs.*;
 

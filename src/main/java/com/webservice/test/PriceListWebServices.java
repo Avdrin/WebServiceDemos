@@ -1,4 +1,4 @@
-package com.howtodoinjava.jersey;
+package com.webservice.test;
 
 import javax.validation.constraints.DecimalMin;
 import javax.validation.constraints.NotNull;
@@ -12,7 +12,7 @@ import java.util.List;
 /**
  * Created by Katz on 12.12.2016.
  */
-public interface PriceListWebService {
+public interface PriceListWebServices {
 
     // Получает цену товара на указанную дату. Если товар не
     // продается в указанную дату, то возвращает пустой ответ с HTTP-кодом No Content.

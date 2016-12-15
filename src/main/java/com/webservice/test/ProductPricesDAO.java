@@ -14,6 +14,6 @@ public interface ProductPricesDAO {
     public LocalDate getValidFrom();
     public LocalDate getValidTo();
 
-    BigDecimal getPrice(String productName, LocalDate dateFrom, LocalDate dateTo);
+    BigDecimal getPrice(String productName, LocalDate date);
 
 }

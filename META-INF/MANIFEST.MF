@@ -1,4 +1,5 @@
 Manifest-Version: 1.0
-Class-Path: C:\WebServiceDemos\WebServiceDemos\src\main\java\com\webservice\test\
+Class-Path: C:\WebServiceDemos\WebServiceDemos\src\main\java\com\webse
+ rvice\test\
 Main-Class: com.webservice.test.PriceListWebService
 

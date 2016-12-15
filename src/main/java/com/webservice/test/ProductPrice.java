@@ -19,10 +19,11 @@ public class ProductPrice implements ProductPrices {
     }
     public String getProductName() { return productName; }
     public BigDecimal getProductPrice() {
-        ProductPriceDAO productPriceDAO = new ProductPriceDAO();
-        productPriceDAO.getPrice(productName,validFrom,validTo);
+//        ProductPriceDAO productPriceDAO = new ProductPriceDAO();
+//        productPriceDAO.getPrice(productName,);
 
-        return productPrice; }
+        return productPrice;
+    }
     // цена действует на протяжении интервала, заданного датами
     // getValidFrom() и getValidTo(), в том числе и в даты,
     // задающие границы интервала.

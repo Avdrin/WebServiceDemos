@@ -14,7 +14,7 @@ public class ProductPriceDAO implements ProductPricesDAO {
     DBConnection dbConnection;
 
     @Override
-    public BigDecimal getPrice(String productName, LocalDate dateFrom, LocalDate dateTo) {
+    public BigDecimal getPrice(String productName, LocalDate date) {
         dbConnection = new DBConnection();
         dbConnection.loadDriver();
 
